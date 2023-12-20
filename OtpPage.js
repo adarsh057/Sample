@@ -26,7 +26,7 @@ const OtpPage = ({ route }) => {
     <View style={styles.container}>
       <Text style={styles.heading}>Verify Code</Text>
       <TextInput
-        placeholder='Enter Verification Code which is avaiable to you.'
+        placeholder='Enter Verification Code which is avaiable to you , which was just sent to you.'
         onChangeText={setCode}
         keyboardType='number-pad'
         style={styles.textInput}
